@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for the Webpage -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/mira.png">
+    <title>Zafrin Ferdous Mira</title>
+
+    <!-- Bootstrap CSS files-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- jQuery UI CSS (optional) -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    <!-- Google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
+
+    <!-- Font Awesome Web Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+    <!-- Local styles -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Teaching Panel styles -->
+    <link rel="stylesheet" href="css/teaching-panels.css">
+
+</head>
+
+<body>
+
+<!-- navbar include -->
+<div w3-include-html="navbar.html"></div>
+
+<div id="main-container" class="container">
+    <h1>Awards & Services</h1>
+    <h3 class="push-down-3"><span>Co-curricular Activities</span></h3>
+    <div class="row">
+        <ul id="ccactivities" style="list-style-type:circle;">
+            <li>
+                Representative of Bangladesh<br>
+                <span class="university"><em>GIST International Student Association</em></span>
+            </li>
+            <li>
+                Volunteer <br>
+                <span class="university"><em>3rd International Conference on Electrical Engineering and Information Communication Technology(iCEEiCT 2016)</em></span>
+            </li>
+            <li>
+                Member<br>
+                <span class="university"><em>IEEE MIST Branch in 2015 and 2016</em></span>
+            </li>
+            <li>
+                Member<br>
+                <span class="university"><em>MIST Career Club</em></span>
+            </li>
+
+        </ul>
+    </div>
+
+    <h3 class="push-down-3"><span>Awards & Certificates</span></h3>
+    <div class="row">
+        <ul id="AwardsCertificates" style="list-style-type:circle;">
+            <li>
+                MIST Commandant's List 2015 (Certificate) (Session 2013-2014)<br>
+                <span class="university"><em>Awarded for obtaining a CGPA of 3.83 out of 4.00</em></span>
+            </li>
+            <li>
+                Certificate for Completing Short Course: "Microcontroller & Robotics" (December 2015)<br>
+            </li>
+            <li>
+                Higher Secondary Certificate Scholarship<br>
+                <span class="university"><em>Dinajpur Education Board, Bangladesh (2014-2018)</em></span>
+            </li>
+            <li>
+                Junior Scholarship<br>
+                <span class="university"><em>Dinajpur Education Board, Bangladesh (2009-2010)</em></span>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+<!-- Back-to-top button -->
+<a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
+
+<!-- footer include -->
+<div w3-include-html="footer.html"></div>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Bootstrap JS Library -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<!-- html file include script | used for navbar and footer -->
+<script src="js/w3data.js"></script>
+<script>
+    w3IncludeHTML()
+</script>
+
+<!-- Local scripts -->
+<script src="js/main.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $("li#teaching a").addClass("active");
+        $("li#teaching a").addClass("hvr-bubble-bottom");
+    });
+</script>
+
+</body>
+
+</html>

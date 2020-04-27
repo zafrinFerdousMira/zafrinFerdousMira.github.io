@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Metadata for the Webpage -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="./img/mira.png">
+   <title>Zafrin Ferdous Mira</title>
+
+   <!-- Bootstrap CSS files-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+   <!-- jQuery UI CSS (optional) -->
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+   <!-- Google web fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
+
+   <!-- Font Awesome Web Icons -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+   <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
+   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+   <!-- Local styles -->
+   <link rel="stylesheet" href="css/main.css">
+
+   <style>
+
+      .panel-body {
+         background-color: #f6f7fb;
+      }
+
+      #projects .panel:hover {
+         box-shadow: 3px 3px 10px lightgray;
+      }
+
+      .panel-title {
+         font-weight: bold !important;
+      }
+
+   </style>
+
+</head>
+
+<body>
+
+   <!-- navbar include -->
+   <div w3-include-html="navbar.html"></div>
+
+   <!--div class="spacer-div-3 hidden-xs hidden-xs"></div>
+
+   <!-- Main content    -->
+   <div id="main-container" class="container">
+
+      <div class="row">
+         <div class="col-sm-12">
+            <h1>Projects</h1>
+         </div>
+
+      </div>
+      <h3 class="push-down-3"><span>Graduate Projects</span></h3>
+      <h3 class="push-down-3"><span>Undergraduate Projects</span></h3>
+
+      <div class="row push-down-4" id="projects">
+
+        <div class="row-sm-6 row-md-4">
+           <div class="panel panel-default">
+              <div class="panel-heading">
+                 <b><h5 class="panel-title"><i class="fa fa-microchip"></i> Car Parking Using  Microcontroller</h5></b>
+              <div class="panel-footer">This project was a part of the "Microcontroller & Robotics" short course. It was a miniature car parking model that indicated which parking lot was empty and which one was full. The project was completed using PIC 16F877A microcontroller with IR Sensor, display, led, etc.  Proteus and mickroC were respectively utilized to design the full diagram and to do the coding works.
+              </div>
+            </div>
+           </div>
+        </div>
+
+         <div class="row-sm-6 row-md-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <b><h5 class="panel-title"><i class="fa fa-microchip"></i> RFID based attendance system</h5></b>
+                  <div class="panel-footer">An attendance system was designed using Radio-frequency identification (RFID). Whenever a person punched his card (with RFID tag), it recorded the attendance of the person. The system showed the total number of students present on a particular day (24 hours) and after the 24 hours time window, the memory of the previous day was cleared.
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="row-sm-6 row-md-4">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  <b><h5 class="panel-title"><i class="fa fa-microchip"></i> Motor Control Using Arduino</h5></b>
+                  <div class="panel-footer">A simple project to control DC motor’s rotation, directation, speed, and on/off switching using Arduino.
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   <!-- .row -->
+   </div>
+
+   <!-- Back-to-top button -->
+   <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" style="background: rgb(246,103,51)" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
+
+   <!-- footer include -->
+   <div w3-include-html="footer.html"></div>
+
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <!-- Bootstrap JS Library -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+   <!-- html file include script | used for navbar and footer -->
+   <script src="js/w3data.js"></script>
+   <script>
+      w3IncludeHTML()
+   </script>
+
+   <!-- Local scripts -->
+   <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
