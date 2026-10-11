@@ -13,7 +13,7 @@ Serve this directory with any static web server, for example `python3 -m http.se
 - `js/researcher.js`: Mobile navigation, publication filters, citation copying, and section navigation.
 - `img/mira.png`: Existing profile photo retained from this repository.
 
-The site uses an email link to request the academic CV; CV and resume PDFs are not committed. The page uses local assets and system fonts. Its content and links work without JavaScript; JavaScript adds navigation and publication interactions. Citation copying has a visible manual-copy fallback.
+The draft avoids prominent GitHub links and decorative heading punctuation. CV and resume PDFs are not committed. The private preview includes the supplied CV as an embedded download; the repository version uses a publications link instead. The page uses local assets and system fonts. Its content and links work without JavaScript; JavaScript adds navigation and publication interactions. Citation copying has a visible manual-copy fallback.
 
 ## GitHub Pages
 
